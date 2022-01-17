@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SqlTableDependencly with SignalR</title>
+</head>
+<body>
+    <h1>SqlTableDependencly with SignalR</h1>
+
+    <div id="contextTable">
+        <table border="1">
+            <thead style="background-color:silver">
+                <tr><th>Symbol</th><th>Name</th><th>Price</th></tr>
+            </thead>
+            <tbody>
+                <tr class="loading"><td colspan="3">loading...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="jquery-1.10.2.min.js"></script>
+    <script src="jquery.color-2.1.2.min.js"></script>
+    <script src="../Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="../signalr/hubs"></script>
+    <script src="SignalR.StockTicker.js"></script>
+</body>
+</html>
